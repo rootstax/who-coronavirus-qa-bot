@@ -30,8 +30,7 @@ module.exports = app => {
         });
         const sessionId = process.env.DIALOGFLOW_SESSION_ID; //config.dialogflowSessionId;
         const languageCode = process.env.DIALOGFLOW_SESSION_LANGUAGE_CODE; //config.dialogflowSessionLanguageCode;
-        const knowledgeBaseFullName = "MTQ2OTUzMDkzNTU3ODQzMzk0NTY";
-        //"projects/covid-19-faq-qpfqbi/knowledgeBases/MTQ2OTUzMDkzNTU3ODQzMzk0NTY";
+        const knowledgeBaseFullName = "";
 
         // Create a new session
         //const sessionPath = sessionClient.sessionPath(config.googleProjectId, config.dialogflowSessionId);
